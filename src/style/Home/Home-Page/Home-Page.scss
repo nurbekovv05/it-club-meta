@@ -1,0 +1,305 @@
+// Home Page
+// 1) Page Hero (Главная / Статья / Мы подготовили... )
+#home-hero{
+  padding: 10vw 0;
+  .home-hero-content{
+    .home-hero-img{
+
+    }
+  }
+}
+
+// 2) Page Text (ul)
+#page-text {
+  background: #102146;
+
+  .page-text {
+    &_list-group {
+      padding-left: 20px;
+      li {
+        list-style-type: disc;
+        font-weight: 400;
+        font-size: 18px;
+        color: #FFFFFF;
+        padding-bottom: 30px;
+      }
+    }
+    p {
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 24px;
+      color: #FFFFFF;
+      padding-right: 100px;
+      padding-bottom: 30px;
+    }
+  }
+}
+
+// 3) Page Comments (Комментарии)
+#page-comments {
+  background: #102146;
+
+  .page-comments {
+    width: 60%;
+
+    &_title {
+      font-weight: 700;
+      font-size: 36px;
+      color: #FFFFFF;
+      padding-top: 180px;
+      padding-bottom: 50px;
+    }
+    &_blog {
+      background: #050C22;
+      border-radius: 7.35897px;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+      padding: 20px;
+
+
+      textarea {
+        min-width: 98%;
+        max-width: 98%;
+        height: 136px;
+        overflow: hidden;
+        background: rgba(27, 41, 89, 0.4);
+        border-radius: 7.35897px;
+        border: none;
+        outline: none;
+        font-size: 18px;
+        color: #fff;
+        padding: 14px 0 0 14px;
+
+      }
+      &-btn {
+        font-weight: 500;
+        font-size: 14px;
+        color: #FFFFFF;
+        padding: 18px 55px;
+        background: rgba(27, 41, 89, 0.4);
+        border-radius: 7.35897px;
+        margin-top: 15px;
+        border: none;
+        outline: none;
+      }
+    }
+    &_blogs {
+      padding: 50px 0 40px 0;
+
+      &-blog {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        margin-bottom: 26px;
+
+        &_top-group {
+          display: flex;
+          align-items: start;
+          gap: 30px;
+
+          &_bg {
+
+            div {
+              width: 90px;
+              height: 90px;
+              border-radius: 50%;
+              background: #044076;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+
+              .user-letter {
+                display: inline-block;
+                font-weight: 700;
+                font-size: 36px;
+                color: #FFFFFF;
+              }
+              img {
+                width: 100%;
+                height: 100%;
+              }
+            }
+          }
+          &_desc {
+            display: flex;
+            flex-direction: column;
+
+            &-group {
+              display: flex;
+              align-items: center;
+              column-gap: 40px;
+
+              &_user-name {
+                font-weight: 700;
+                font-size: 20px;
+                color: #FFFFFF;
+              }
+              &_time {
+                font-weight: 400;
+                font-size: 14px;
+                color: #9099A3;
+              }
+            }
+            &-p {
+              width: 70%;
+              font-weight: 500;
+              font-size: 16px;
+              line-height: 20px;
+              color: #FFFFFF;
+              padding: 6px 0 15px 0;
+            }
+            &-answer {
+              font-weight: 400;
+              font-size: 14px;
+              color: #9099A3;
+            }
+          }
+        }
+        &_btm-group {
+          display: flex;
+          align-items: start;
+          gap: 30px;
+          margin-top: 16px;
+          margin-left: 114px;
+
+          &_bg {
+
+            div {
+              width: 45px;
+              height: 45px;
+              border-radius: 50%;
+              background: #044076;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+
+              .under-user-letter {
+                display: inline-block;
+                font-weight: 700;
+                font-size: 18.9px;
+                line-height: 28px;
+                color: #FFFFFF;
+              }
+              img {
+                width: 100%;
+                height: 100%;
+              }
+            }
+          }
+          &_desc {
+            display: flex;
+            flex-direction: column;
+
+            &-group {
+              display: flex;
+              align-items: center;
+              column-gap: 40px;
+
+              &_user-name {
+                font-weight: 700;
+                font-size: 20px;
+                color: #FFFFFF;
+              }
+              &_time {
+                font-weight: 400;
+                font-size: 14px;
+                color: #9099A3;
+              }
+            }
+            &-p {
+              width: 70%;
+              font-weight: 500;
+              font-size: 16px;
+              line-height: 20px;
+              color: #FFFFFF;
+              padding: 6px 0 15px 0;
+            }
+            &-answer {
+              font-weight: 400;
+              font-size: 14px;
+              color: #9099A3;
+            }
+          }
+        }
+      }
+    }
+    &_btn {
+      background: rgba(27, 41, 89, 0.4);
+      border-radius: 10px;
+      padding: 18px 40px;
+      font-weight: 500;
+      font-size: 16px;
+      color: #FFFFFF;
+      border: none;
+      outline: none;
+    }
+  }
+}
+
+// 4) Page Articles  (Другие статьи)
+#page-articles {
+  background: #102146;
+  padding: 80px 0;
+
+  .page-articles {
+    &_title {
+      font-weight: 700;
+      font-size: 36px;
+      color: #FFFFFF;
+      padding-bottom: 50px;
+    }
+    &_blogs {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 15px;
+
+      &-blog {
+        width: 28%;
+        background: #FFFFFF;
+        border-radius: 10.5502px;
+        padding: 14px 16px;
+
+        &_title {
+          font-weight: 500;
+          font-size: 18.3527px;
+          color: #898989;
+        }
+        &-p {
+          width: 80%;
+          font-weight: 600;
+          font-size: 20px;
+          line-height: 24px;
+          color: #000000;
+          padding: 8px 0 14px 0;
+        }
+        &_group {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+
+          &-group {
+            font-weight: 500;
+            font-size: 19.4963px;
+            color: #044176;
+            display: flex;
+            align-items: end;
+            gap: 7px;
+
+            .reader-icon {
+              color: #044176;
+              font-size: 26px;
+            }
+          }
+          &-date {
+            font-weight: 500;
+            font-size: 19.4963px;
+            color: #044176;
+          }
+        }
+      }
+    }
+  }
+}
