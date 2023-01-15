@@ -13,6 +13,7 @@ const Home = () => {
             <HomeSubscribe/>
             <HomeAccordion/>
             <HomeForm/>
+
         </>
 
     );

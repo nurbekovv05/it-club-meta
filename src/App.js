@@ -11,6 +11,7 @@ import Course from "./components/Course/Course";
 import HomePage from "./components/Home/Home-page/Home-Page";
 import Profile from "./components/Profile/Profile";
 import Follow from "./components/Follow/Follow";
+import Paket from "./components/Home/Home-statya/Paket/Paket";
 
 function App() {
     return (
@@ -26,6 +27,7 @@ function App() {
                 <Route path={"/Profile"} element={<Profile/>}/>
                 <Route path={"/Follow"} element={<Follow/>}/>
                 <Route path={"/Home-Page"} element={<HomePage/>}/>
+                <Route path={"/Paket"} element={<Paket/>}/>
 
             </Routes>
         </div>
