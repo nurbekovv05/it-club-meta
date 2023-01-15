@@ -1,8 +1,10 @@
 import React from 'react';
 import {NavLink} from "react-router-dom";
-import LOGO from "./../../image/логотип.svg"
+import LOGO from "./../../image/логотип.svg";
+
 
 const Header = () => {
+
     return (
         <div id="header">
             <div className="container">
@@ -50,3 +52,6 @@ const Header = () => {
 };
 
 export default Header;
+
+
+
