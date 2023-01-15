@@ -1,4 +1,5 @@
 import React from 'react';
+import {NavLink} from "react-router-dom";
 
 const HomeSubscribe = () => {
     return (
@@ -13,7 +14,8 @@ const HomeSubscribe = () => {
                             </div>
                             <div className="home-subscribe_blog-buttons">
                                 <button className="home-subscribe_blog-buttons_first">Оформить подписку</button>
-                                <button className="home-subscribe_blog-buttons_second">Подробнее о пакетах </button>
+                                {/*<button className="home-subscribe_blog-buttons_second">Подробнее о пакетах </button>*/}
+                                <NavLink to={"/Paket"}>Подробнее о пакетах</NavLink>
                             </div>
                         </div>
                     </div>
